@@ -1,0 +1,40 @@
+POST http://localhost:8000/api/transactions/
+Content-Type: application/json
+
+{
+    "text": "Maily Shopping",
+    "amount": 2000.00
+}
+
+###
+
+GET http://localhost:8000/api/transactions/
+
+
+###
+
+DELETE http://localhost:8000/api/transactions/de906c4b-bb85-4501-a733-3dfc1929e802/
+
+
+###
+
+PUT http://localhost:8000/api/transactions/0a4f53d2-7655-456b-9588-6dc51f697089/
+Content-Type: application/json
+
+{
+    "text": "Temeni Shopping",
+    "amount": 3000.00
+}
+
+###
+
+PATCH  http://localhost:8000/api/transactions/0a4f53d2-7655-456b-9588-6dc51f697089/
+Content-Type: application/json
+
+{
+    "text": "Lalla Shopping"
+}
+
+
+
+
